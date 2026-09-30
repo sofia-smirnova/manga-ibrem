@@ -1,0 +1,1 @@
+const button=document.getElementById("powerButton");const result=document.getElementById("result");button.addEventListener("click",()=>{result.textContent="∞ ИБРЕМ АКТИВИРОВАН. ПОБЕДИТЬ ЕГО НЕВОЗМОЖНО. ∞";document.body.animate([{filter:"brightness(1)"},{filter:"brightness(2)"},{filter:"brightness(1)"}],{duration:700,iterations:1});button.textContent="∞ МОЩНОСТЬ БЕЗГРАНИЧНА ∞";});
